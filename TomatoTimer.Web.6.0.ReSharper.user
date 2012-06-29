@@ -1,0 +1,224 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Content/f:Site.css" caret="1019" fromTop="39" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/f:Global.asax.cs" caret="1102" fromTop="34" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Scripts/f:knockout.js" caret="0" fromTop="0" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Controllers/f:HomeController.cs" caret="376" fromTop="21" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/f:Web.config" caret="447" fromTop="8" />
+      <File id="F0923700-9882-4338-ACD6-749F93C9869D/f:Pomodoro.cs" caret="263" fromTop="13" />
+      <File id="F0923700-9882-4338-ACD6-749F93C9869D/f:Task.cs" caret="417" fromTop="23" />
+      <File id="F0923700-9882-4338-ACD6-749F93C9869D/f:Activity.cs" caret="302" fromTop="15" />
+      <File id="F0923700-9882-4338-ACD6-749F93C9869D/f:Priority.cs" caret="244" fromTop="15" />
+      <File id="7C2E020F-D47B-4DC8-9AB2-98F1A381590B/f:TaskRepository.cs" caret="941" fromTop="28" />
+      <File id="7C2E020F-D47B-4DC8-9AB2-98F1A381590B/f:TomatorTimerDbContext.cs" caret="0" fromTop="0" />
+      <File id="7C2E020F-D47B-4DC8-9AB2-98F1A381590B/f:RepositoryBase.cs" caret="0" fromTop="0" />
+      <File id="BD3185C6-020D-4CED-8589-BCC53554BA73/f:TaskService.cs" caret="1434" fromTop="41" />
+      <File id="BD3185C6-020D-4CED-8589-BCC53554BA73/d:DependencyInjection/f:NinjectDependencyResolver.cs" caret="0" fromTop="0" />
+      <File id="BD3185C6-020D-4CED-8589-BCC53554BA73/f:ServiceBase.cs" caret="0" fromTop="0" />
+      <File id="07A4E8E6-D1F7-4910-B6FA-8614B9C93764/f:Program.cs" caret="1645" fromTop="37" />
+      <File id="07A4E8E6-D1F7-4910-B6FA-8614B9C93764/f:App.config" caret="303" fromTop="4" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2413" fromTop="44" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Controllers/d:API/f:TaskController.cs" caret="349" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2991" fromTop="45" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2935" fromTop="40" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1900" fromTop="29" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1160" fromTop="23" />
+      <File id="BD3185C6-020D-4CED-8589-BCC53554BA73/f:TaskService.cs" caret="1471" fromTop="42" />
+      <File id="BD3185C6-020D-4CED-8589-BCC53554BA73/f:TaskService.cs" caret="912" fromTop="25" />
+      <File id="BD3185C6-020D-4CED-8589-BCC53554BA73/f:TaskService.cs" caret="662" fromTop="14" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Controllers/d:API/f:TaskController.cs" caret="474" fromTop="19" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Controllers/d:API/f:TaskController.cs" caret="667" fromTop="28" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Controllers/d:API/f:TaskController.cs" caret="788" fromTop="32" />
+      <File id="BD3185C6-020D-4CED-8589-BCC53554BA73/f:TaskService.cs" caret="1181" fromTop="30" />
+      <File id="BD3185C6-020D-4CED-8589-BCC53554BA73/f:TaskService.cs" caret="1302" fromTop="34" />
+      <File id="7C2E020F-D47B-4DC8-9AB2-98F1A381590B/f:TaskRepository.cs" caret="830" fromTop="24" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1230" fromTop="13" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1160" fromTop="7" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1160" fromTop="36" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1160" fromTop="11" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1882" fromTop="14" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2004" fromTop="18" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2238" fromTop="39" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2568" fromTop="48" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2568" fromTop="46" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1900" fromTop="17" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2783" fromTop="41" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1152" fromTop="40" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1152" fromTop="32" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="1160" fromTop="26" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="896" fromTop="18" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="803" fromTop="15" />
+      <File id="222CE492-7026-4B1A-85EC-CFA5C47B803F/d:Views/d:Home/f:Index.cshtml" caret="2496" fromTop="46" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="510" />
+      <Item value="string" priority="153" />
+      <Item value="DateTime`0" priority="31" />
+      <Item value="TimeSpan`0" priority="63" />
+      <Item value="Pomodoro`0" priority="31" />
+      <Item value="bool" priority="95" />
+      <Item value="List" priority="95" />
+      <Item value="TaskService`0" priority="95" />
+      <Item value="return" priority="255" />
+      <Item value="IEnumerable" priority="31" />
+      <Item value="new" priority="223" />
+      <Item value="List&lt;Task&gt;" priority="86" />
+      <Item value="tasks" priority="95" />
+      <Item value="Task" priority="86" />
+      <Item value="Name" priority="90" />
+      <Item value="Priority" priority="163" />
+      <Item value="t" priority="31" />
+      <Item value="private" priority="31" />
+      <Item value="_tasks" priority="127" />
+      <Item value="void" priority="31" />
+      <Item value="Task`0" priority="191" />
+      <Item value="TagBuilder`0" priority="31" />
+      <Item value="TaskService" priority="28" />
+      <Item value="service" priority="31" />
+      <Item value="View`0" priority="31" />
+      <Item value="Html" priority="29" />
+      <Item value="Json`0" priority="31" />
+      <Item value="Priority`0" priority="128" />
+      <Item value="name" priority="31" />
+      <Item value="IsComplete" priority="31" />
+      <Item value="taskService" priority="95" />
+      <Item value="task" priority="191" />
+      <Item value="var" priority="63" />
+      <Item value="_repository" priority="95" />
+      <Item value="if" priority="31" />
+      <Item value="foundTask" priority="31" />
+      <Item value="null" priority="31" />
+      <Item value="false" priority="31" />
+      <Item value="true" priority="63" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="108" />
+      <Item value="OrderBy`2" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TomatoTimer.Domain.Task">
+      <Item value="Priority" priority="26" />
+      <Item value="Id" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TomatorTimer.Service.TaskService">
+      <Item value="GetTasks`0" priority="26" />
+      <Item value="AddTask`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="EditorFor`2" priority="50" />
+      <Item value="TextBoxFor`2" priority="27" />
+      <Item value="RadioButton`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="th" priority="30" />
+      <Item value="td" priority="42" />
+      <Item value="button" priority="17" />
+      <Item value="type" priority="41" />
+      <Item value="id" priority="12" />
+      <Item value="div" priority="5" />
+      <Item value="AddButton" priority="5" />
+      <Item value="style" priority="5" />
+      <Item value="class" priority="12" />
+      <Item value="ui-widget" priority="5" />
+      <Item value="script" priority="11" />
+      <Item value="language" priority="5" />
+      <Item value="javascript" priority="5" />
+      <Item value="p" priority="5" />
+      <Item value="input" priority="35" />
+      <Item value="text" priority="11" />
+      <Item value="number" priority="5" />
+      <Item value="src" priority="5" />
+      <Item value="table" priority="5" />
+      <Item value="thead" priority="6" />
+      <Item value="tbody" priority="5" />
+      <Item value="tr" priority="5" />
+      <Item value="checkbox" priority="5" />
+      <Item value="span" priority="11" />
+      <Item value="hidden" priority="5" />
+      <Item value="form" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="Html" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Helpers.Json">
+      <Item value="Encode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="function" priority="142" />
+      <Item value="this" priority="76" />
+      <Item value="ko" priority="54" />
+      <Item value="new" priority="65" />
+      <Item value="ViewModel" priority="10" />
+      <Item value="$" priority="19" />
+      <Item value="document" priority="10" />
+      <Item value="var" priority="186" />
+      <Item value="self" priority="219" />
+      <Item value="name" priority="21" />
+      <Item value="preventBubble" priority="10" />
+      <Item value="AppViewModel" priority="10" />
+      <Item value="vm" priority="10" />
+      <Item value="priority" priority="10" />
+      <Item value="Task" priority="10" />
+      <Item value="false" priority="10" />
+      <Item value="true" priority="10" />
+      <Item value="pomodoro" priority="10" />
+      <Item value="Date" priority="21" />
+      <Item value="time" priority="20" />
+      <Item value="setInterval" priority="10" />
+      <Item value="current" priority="10" />
+      <Item value="currentTime" priority="10" />
+      <Item value="alert" priority="21" />
+      <Item value="console" priority="10" />
+      <Item value="Database" priority="10" />
+      <Item value="null" priority="10" />
+      <Item value="tasks" priority="32" />
+      <Item value="data" priority="21" />
+      <Item value="task" priority="32" />
+      <Item value="id" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContextQualified">
+      <Item value="observable" priority="34" />
+      <Item value="applyBindings" priority="8" />
+      <Item value="ready" priority="9" />
+      <Item value="observableArray" priority="8" />
+      <Item value="tasks" priority="8" />
+      <Item value="push" priority="26" />
+      <Item value="complete" priority="8" />
+      <Item value="getTime" priority="26" />
+      <Item value="current" priority="35" />
+      <Item value="setSeconds" priority="17" />
+      <Item value="log" priority="8" />
+      <Item value="getJSON" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TomatoTimer.Domain.Priority">
+      <Item value="None" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TomatoTimer.Domain.Repository.ITaskRepository">
+      <Item value="Get`0" priority="49" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

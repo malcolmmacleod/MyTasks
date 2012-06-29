@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="F0923700-9882-4338-ACD6-749F93C9869D" ModuleId="TomatoTimer.Domain" />
+  <Module PersistentId="7C2E020F-D47B-4DC8-9AB2-98F1A381590B" ModuleId="TomatoTimer.Data" />
+  <Module PersistentId="BD3185C6-020D-4CED-8589-BCC53554BA73" ModuleId="TomatorTimer.Service" />
+  <Module PersistentId="222CE492-7026-4B1A-85EC-CFA5C47B803F" ModuleId="TomatoTimer.Web" />
+  <Module PersistentId="07A4E8E6-D1F7-4910-B6FA-8614B9C93764" ModuleId="TomatoTimer.Console" />
+  <Module PersistentId="04CB64AC-282B-4E2A-89DF-A6A515B60E0B" ModuleId="TomatoTimer.WebApplication" />
+  <Module PersistentId="2213832A-D309-402E-B835-7FF82B4E0FC5" ModuleId="TomatoTimer.WebAPI" />
+</Modules>

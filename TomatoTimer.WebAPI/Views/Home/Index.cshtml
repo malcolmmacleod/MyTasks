@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/css")" rel="stylesheet" type="text/css" />
+    <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/themes/base/css")" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.6.2.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/knockout-2.0.0.js")"></script>
+
+</head>
+<body>
+    <form data-bind="submit: addTask">
+        Add task: <input required="true" data-bind="value: newTaskText" placeholder="What needs to be done?" />
+        <button type="submit">Add</button>
+    </form>
+
+    <ul data-bind="foreach: tasks, visible: tasks().length > 0">
+        <li>
+            <form data-bind="submit:updateTask">
+                <input class="id" hidden="true" data-bind="value: id"></input>
+                <input class="item" data-bind="value: name, disable: isComplete" />
+                <input class="taskdone" type="checkbox" data-bind="checked: isComplete" />
+                <a href="#" data-bind="click: removeTask">Delete</a>
+                <button class="updateButton" type="submit">Update</button>
+            </form>
+        </li> 
+    </ul>
+
+    
+</body>
+<script language="javascript">
+
+    
+
+    var PomodoroViewModel = function (time) {
+        var self = this;
+
+        self.time = time;
+        self.current = new Date();
+        self.current.setSeconds(0);
+
+        self.start = function () {
+            var currentTime = 0;
+            setInterval(function () {
+                currentTime++;
+                self.current.setSeconds(currentTime);
+                console.log("current time " + self.current.getTime());
+            }, 1000);
+        };
+
+    };
+
+    var TaskViewModel = function (id, name, priority, isComplete) {
+        var self = this;
+        self.id = id;
+        self.name = name;
+        self.priority = priority;
+        self.isComplete = isComplete;
+
+        self.setComplete = function () {
+            self.isComplete = true;
+        };
+
+        self.updateTask = function() {
+            var item = {
+                Id: self.id,
+                Name: self.name,
+                Priority: self.priority,
+                IsComplete: self.isComplete
+            };
+            
+            var serialized = JSON.stringify(item);
+            
+            $.ajax({
+                url: "/api/Task/" + self.id,
+                data: serialized,
+                type: "PUT",
+                contentType: "application/json;charset=utf-8",
+                statusCode: {
+                    201: function () {
+                        alert("Task updated!");
+                    },
+                    400: function () {
+                        alert("Problem!");
+                    }
+                }
+            });
+        };
+
+        self.removeTask = function () {
+            $.ajax({
+                url: "/api/Task/" + self.id,
+                type: "DELETE",
+                contentType: "application/json;charset=utf-8",
+                statusCode: {
+                    201: function () {
+                        alert("Task deleted!");
+                    },
+                    400: function () {
+                        alert("Problem!");
+                    }
+                }
+            });
+        };
+
+    };
+
+    var AppViewModel = function () {
+        var self = this;
+
+        self.tasks = ko.observableArray();
+        self.newTaskText = ko.observable();
+
+        self.addTask = function () {
+            var task = new TaskViewModel(0, this.newTaskText(), 0, false);
+            self.tasks.push(task);
+            var item = {
+                Id: task.id,
+                Name: task.name,
+                Priority: task.priority,
+                IsComplete: task.isComplete
+            };
+            var serialized = JSON.stringify(item);
+
+            $.ajax({
+                url: "/api/Task",
+                data: serialized,
+                type: "POST",
+                contentType: "application/json;charset=utf-8",
+                statusCode: {
+                    201: function () {
+                        alert("Task added!");
+                    },
+                    400: function () {
+                        alert("Problem!");
+                    }
+                }
+            });
+
+            self.newTaskText("");
+        };
+
+        self.loadTasks = function () {
+
+            $.getJSON("/api/Task", null, function (data) {
+
+                var tasks = [];
+                $(data).each(function () {
+                    var task = new TaskViewModel(this.Id, this.Name, this.Priority, this.IsComplete);
+                    tasks.push(task);
+                });
+                self.tasks = ko.observableArray(tasks);
+                ko.applyBindings(self);
+
+            });
+        };
+
+    };
+
+
+    $(document).ready(function () {
+        var vm = new AppViewModel();
+        vm.loadTasks();
+    });
+    
+</script>
+</html>
